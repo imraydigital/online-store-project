@@ -6,6 +6,8 @@ const PORT = process.env.PORT || 5000
 const adminData = require('./routes/admin')
 const shopRoutes = require('./routes/shop')
 
+app.set('view engine', 'pug')
+
 app.use(bodyParser.urlencoded({
     extended: false
 }));
