@@ -44,6 +44,10 @@ header {
     transform: scale(1.05);
 }
 
+.main-header__item>a.active {
+    color: aqua;
+    transform: scale(1.05);
+}
 
 button {
     background-color: aqua;
@@ -58,8 +62,8 @@ button {
 
 .btn-input {
     border-radius: 0px 10px 20px 0px;
-    padding: 30px;
-    font-size: 22px;
+    padding: 2rem;
+    font-size: 1rem;
 }
 
 button.btn-primary:hover {
@@ -100,9 +104,9 @@ main>.grid>.product-item{
 }
 
 .addProductForm input {
-    padding: 30px;
+    padding: 2rem;
+    font-size: 1rem;
     border: none;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px 0px 0px 20px;
-    font-size: 22px;
 }
